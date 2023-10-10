@@ -6,8 +6,8 @@ metadata:
     app: myapp
 spec:
   containers:
-    - name: myapp
-      image: <Image>
+    - name: nginx-container
+      image: nginx
       resources:
         limits:
           memory: '128Mi'
