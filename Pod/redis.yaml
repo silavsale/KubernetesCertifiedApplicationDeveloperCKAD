@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
     - name: redis-container
-      image: redis123
+      image: rediss
       resources:
         limits:
           memory: '128Mi'
